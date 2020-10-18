@@ -8,7 +8,7 @@ Use latest versions of below mentioned plugins in `pubspec.yaml`.
 
 | Plugin | Pub | Explanation |
 |--------|-----|-------------|
-| [shared_preferences](https://github.com/PonnamKarthik/shared_preferences) | [![pub package](https://img.shields.io/pub/v/shared_preferences.svg)](https://pub.dev/packages/shared_preferences) | Used to store data locally in key-value pairs.
+| [shared_preferences](https://github.com/flutter/plugins) | [![pub package](https://img.shields.io/pub/v/shared_preferences.svg)](https://pub.dev/packages/shared_preferences) | Used to store data locally in key-value pairs.
 | [provider](https://github.com/PonnamKarthik/provider) | [![pub package](https://img.shields.io/pub/v/provider.svg)](https://pub.dev/packages/provider) | A wrapper around InheritedWidget to make them easier to use and more reusable.
 
 And then
