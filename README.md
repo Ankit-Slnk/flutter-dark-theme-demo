@@ -2,6 +2,8 @@
 
 This demo will show us how to implement dark theme in flutter projects.
 
+![lutter Dark Theme Demo](flutter_dark_theme.gif)
+
 ## Setup
 
 Use latest versions of below mentioned plugins in `pubspec.yaml`.
