@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'darkThemePreference.dart';
+import '../preferences/darkThemePreference.dart';
 
 class DarkThemeProvider with ChangeNotifier {
   DarkThemePreference darkThemePreference = DarkThemePreference();

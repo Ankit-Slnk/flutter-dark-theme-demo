@@ -1,7 +1,9 @@
+import 'package:darktheme/utilities/utility.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-import 'darkThemeProvider.dart';
+import '../provider/darkThemeProvider.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -27,6 +29,12 @@ class _HomeScreenState extends State<HomeScreen>
       color: Theme.of(context).primaryColor,
       child: SafeArea(
         child: Scaffold(
+          appBar: AppBar(
+            actions: [
+              Utility.githubAction(themeProvider),
+              Utility.websiteAction(themeProvider)
+            ],
+          ),
           backgroundColor: Theme.of(context).backgroundColor,
           body: Center(
             child: RaisedButton.icon(

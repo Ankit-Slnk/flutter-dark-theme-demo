@@ -1,9 +1,9 @@
-import 'package:darktheme/homeScreen.dart';
+import 'package:darktheme/views/homeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'darkThemeProvider.dart';
-import 'darkThemeStyles.dart';
+import 'provider/darkThemeProvider.dart';
+import 'styles/darkThemeStyles.dart';
 
 void main() {
   runApp(DarkThemeApp());
@@ -40,9 +40,6 @@ class _DarkThemeAppState extends State<DarkThemeApp> {
             debugShowCheckedModeBanner: false,
             theme: Styles.themeData(themeChangeProvider.darkTheme, context),
             home: HomeScreen(),
-            // routes: <String, WidgetBuilder>{
-            //   AGENDA: (BuildContext context) => AgendaScreen(),
-            // },
           );
         },
       ),
