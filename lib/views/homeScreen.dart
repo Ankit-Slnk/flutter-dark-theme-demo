@@ -36,25 +36,34 @@ class _HomeScreenState extends State<HomeScreen>
             ],
           ),
           backgroundColor: Theme.of(context).backgroundColor,
-          body: Center(
-            child: RaisedButton.icon(
-              color: Theme.of(context).buttonColor,
-              padding: EdgeInsets.all(16),
-              onPressed: () {
-                themeProvider.darkTheme = !themeProvider.darkTheme;
-              },
-              icon: Image.asset(
-                "assets/images/${themeProvider.darkTheme ? "night" : "day"}.png",
-                height: 30,
-                width: 30,
-              ),
-              label: Text(
-                "Switch Theme",
-                style: TextStyle(
-                  fontSize: 20,
+          body: Stack(
+            children: [
+              Center(
+                child: RaisedButton.icon(
+                  color: Theme.of(context).buttonColor,
+                  padding: EdgeInsets.all(16),
+                  onPressed: () {
+                    themeProvider.darkTheme = !themeProvider.darkTheme;
+                  },
+                  icon: Image.asset(
+                    "assets/images/${themeProvider.darkTheme ? "night" : "day"}.png",
+                    height: 30,
+                    width: 30,
+                  ),
+                  label: Text(
+                    "Switch Theme",
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
                 ),
               ),
-            ),
+              Container(
+                padding: EdgeInsets.only(bottom: 8),
+                alignment: Alignment.bottomCenter,
+                child: Text("Made with ♥ in Flutter"),
+              )
+            ],
           ),
         ),
       ),
