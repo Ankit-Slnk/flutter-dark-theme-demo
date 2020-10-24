@@ -66,5 +66,4 @@ Finally
 
 ##### Please refer to my [blogs](https://ankitsolanki.netlify.app/blog.html) for more information.
 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5100faea-9f50-4aeb-9871-e469e231985e/deploy-status)](https://app.netlify.com/sites/optimistic-hamilton-35e2cc/deploys)
+Checkout [this demo](https://flutter-web-dark-theme.netlify.app/#/) in [Flutter Web](https://flutter.dev/docs/get-started/web).
