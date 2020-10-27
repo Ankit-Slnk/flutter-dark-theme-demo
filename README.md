@@ -1,8 +1,10 @@
 # Flutter Dark Theme Demo
 
+![Flutter Dark Theme Demo](flutter-dark-theme.png)
+
 This demo will show us how to implement dark theme in flutter projects.
 
-![lutter Dark Theme Demo](flutter_dark_theme.gif)
+![Flutter Dark Theme Demo](flutter_dark_theme.gif)
 
 ## Setup
 
